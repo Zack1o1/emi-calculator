@@ -1,5 +1,0 @@
-setup.py
-emi_calculator.egg-info/PKG-INFO
-emi_calculator.egg-info/SOURCES.txt
-emi_calculator.egg-info/dependency_links.txt
-emi_calculator.egg-info/top_level.txt
