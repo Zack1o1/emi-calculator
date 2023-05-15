@@ -7,19 +7,20 @@ The EMI Calculator is a Python library that provides a convenient way to calcula
 You can install the EMI Calculator library using pip:
 
 ```shell
-pip install emi-calculator
+pip install emi_calculator
 ```
 # **Usage**
+ ```shell
 from emi import emi_calculator
 OR
 import emi
 
-# Note* emi_calculator takes 3 arguments:
-#                1. loan amount
-#                2. interest rate
-#                3. tenure_month 
-#  the emi will result in float format 
-# you can use round function to round up what u want
+ # Note* emi_calculator takes 3 arguments:
+ #                1. loan amount
+ #                2. interest rate
+ #                3. tenure_month 
+ #  the emi will result in float format 
+ # you can use round function to round up what u want
 
 # Input loan details
 loan_amount = float(input('Enter loan amount: '))
@@ -34,7 +35,7 @@ print(f"The Equated Monthly Installment (EMI) is: {calculate_emi:.2f}")
 **Example**
 Let's calculate the EMI for a loan of $10,000 with an annual interest rate of 5% and a tenure of 36 months:
  ```shell
- from emi import emi_calculator
+from emi import emi_calculator
 
 loan_amount = 10000
 interest_rate = 5
